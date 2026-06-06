@@ -1,0 +1,6 @@
+{
+  "name": "Mela Live",
+  "description": "A pan-African investor-ready social entertainment ecosystem combining livestreaming, voice rooms, TikTok-style short videos, and agency monetization hierarchies.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+/* Ethio-Spark Light Mode Mapping */
+.light {
+  /* Main Backgrounds mapped to neat, modern light greys and pure white */
+  --color-black: #ffffff;
+  --color-zinc-950: #fafafa;
+  --color-zinc-901: #f8f8fb;
+  --color-zinc-900: #f4f4f5;
+  --color-zinc-850: #e4e4e7;
+  --color-zinc-800: #e4e4e7;
+  --color-zinc-700: #d4d4d8;
+  --color-zinc-650: #d4d4d8;
+  --color-zinc-600: #a1a1aa;
+  
+  /* Slate elements (e.g. mobile nav drawer) */
+  --color-slate-950: #ffffff;
+  --color-slate-900: #f4f4f5;
+  --color-slate-800: #e4e4e7;
+
+  /* Text Colors inverted for solid readable contrast */
+  --color-zinc-100: #111111;
+  --color-zinc-150: #1b1b1f;
+  --color-zinc-200: #222225;
+  --color-zinc-300: #27272a;
+  --color-zinc-350: #3f3f46;
+  --color-zinc-400: #52525b;
+  --color-zinc-500: #71717a;
+  --color-zinc-550: #71717a;
+  
+  --color-slate-100: #111111;
+  --color-slate-300: #27272a;
+  
+  /* Titles in light mode default to true black */
+  --color-white: #000000;
+  
+  /* Set standard text selection colors for light mode query */
+  --selection-background: theme('colors.blue.100');
+  --selection-foreground: theme('colors.blue.900');
+}
